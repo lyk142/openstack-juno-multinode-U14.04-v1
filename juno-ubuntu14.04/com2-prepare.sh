@@ -10,7 +10,7 @@ rm $iphost
 touch $iphost
 cat << EOF >> $iphost
 127.0.0.1       localhost
-127.0.0.1        compute1
+127.0.0.1        compute2
 $CON_MGNT_IP    controller
 $COM1_MGNT_IP      compute1
 $COM2_MGNT_IP	compute2
